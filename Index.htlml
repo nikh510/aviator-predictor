@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>facebook</title>
+ <meta charset="UTF-8" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<style type="text/css">
+
+*{
+padding:0;
+margin:0;
+}
+
+.download{
+font-size:16px;
+background-color:#FEFBE2;
+padding:7px;
+}
+
+.download i{
+font-size:35px;
+}
+
+.download a{
+text-decoration:none;
+font-size:15px;
+position:absolute;
+top:15px;
+left:35px;
+}
+
+.facebook{
+text-align:center;
+}
+
+.facebook img{
+height:50px;
+}
+
+.login input{
+display:block;
+margin:6px auto;
+border-radius:4px;
+}
+
+.login input[type="text"], .login input[type="password"]{
+width:330px;
+height:42px;
+border:1px solid #E2E3E3;
+background-color:#F4F6F8;
+outline:none;
+}
+
+.login input[type="submit"]{
+width:330px;
+height:42px;
+border:none;
+color:#ffffff;
+font-size:15px;
+font-weight:bolder;
+background-color:#1878F3;
+}
+
+.forget{
+text-align:center;
+}
+
+.forget a{
+text-decoration:none;
+font-size:14px;
+}
+
+.or{
+position:absolute;
+text-align:center;
+width:100%;
+}
+
+.or div{
+line-height:70px;
+font-size:15px;
+}
+
+.or div:after, .or div:before{
+position:absolute;
+top:50%;
+background:#CDCFD3;
+content:"";
+height:1px;
+width:40%;
+}
+
+.or div:before{
+left:0;
+}
+
+.or div:after{
+right:0;
+}
+
+.newAccount{
+text-align:center;
+margin-top:60px;
+}
+
+.newAccount button{
+height:37px;
+width:160px;
+border-radius:4px;
+border:none;
+color:#ffffff;
+background-color:#00A501;
+font-weight:bold;
+}
+
+.language .one{
+font-size:13px;
+text-align:center;
+margin-top:90px;
+}
+
+.language .one a{
+position:relative;
+display:block;
+text-decoration:none;
+margin:4px;
+}
+
+.made{
+font-size:10px;
+text-align:center;
+padding:15px;
+}
+
+.name{
+font-size:12px;
+text-align:center;
+}
+
+.login input[type="text"]:focus , .login input[type="password"]:focus{
+width:360px;
+border-color:blue;
+transition:0.5s;
+}
+
+.newAccount button:focus{
+background-color:purple;
+}
+
+</style>
+<body>
+
+ <div class="download">
+  <i class="fas fa-mobile-alt"></i>
+  <center>
+     <b>FACEBOOK</b>
+     </center>
+     <form method="">
+ </div>
+ 
+ <div class="facebook">
+  
+ </div>
+ 
+ <div class="login">
+  <input type="text" placeholder="Mobile number or email address"/>
+  <input type="password" placeholder="Password"/>
+  <input type="submit" value="Log In"/>
+ </div>
+ 
+ <div class="forget">
+  <a href="#">Forgotten password?</a>
+ </div>
+ 
+ <div class="or">
+  <div>or</div>
+ </div>
+ 
+ <div class="newAccount">
+  <a href="Facebook create new account.html" >
+   <button type="button">Create New Account</button>
+  </a>
+ </div>
+ 
+ <div class="language">
+  <div class="one">
+   <p>English(UK)</p>
+   
+   <a href="#" >Tiếng Việt</a>
+   <a href="#" >Español</a>
+  </div>
+ </div>
+ 
+ <div class="made">
+  <p>About · Help · More</p>
+ </div>
+ 
+
+ </div>
+ 
+ </form>
+
+</body>
+</html>
